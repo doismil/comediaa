@@ -1,0 +1,103 @@
+<body>
+
+    <header>ALURAFLIX</header>
+    
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catálogo de Filmes de Comédia</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+            header {
+                background: #333;
+                color: #fff;
+                padding-top: 30px;
+                min-height: 70px;
+                border-bottom: #ccc 3px solid;
+                text-align: center;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+            .catalog {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            .movie {
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                padding: 15px;
+                width: 100%;
+                max-width: 300px;
+            }
+            .movie h2 {
+                font-size: 18px;
+                margin: 0 0 10px;
+            }
+            .movie p {
+                font-size: 14px;
+                color: #555;
+                margin: 0 0 10px;
+            }
+            .movie iframe {
+                width: 100%;
+                height: 170px;
+                border: 0;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Catálogo de Filmes de Comédia</h1>
+        </header>
+        
+        <div class="container">
+            <div class="catalog">
+                <div class="movie">
+                    <h2>O Grande Lebowski</h2>
+                    <p>Um filme sobre um homem que se envolve em uma trama complexa de sequestro por causa de um erro de identidade.</p>
+                    <iframe src="https://www.youtube.com/embed/cwkqG792rGM" allowfullscreen></iframe>
+                </div>
+                <div class="movie">
+                    <h2>Superbad - É Hoje</h2>
+                    <p>Dois amigos tentam aproveitar ao máximo suas últimas semanas de escola secundária.</p>
+                    <iframe src="https://www.youtube.com/embed/qCzbNkyXO50" allowfullscreen></iframe>
+                </div>
+                <div class="movie">
+                    <h2>Monty Python e o Cálice Sagrado</h2>
+                    <p>Uma paródia dos mitos arturianos com o humor irreverente do Monty Python.</p>
+                    <iframe src="https://www.youtube.com/embed/xmHnQtj2_Kw" allowfullscreen></iframe>
+                </div>
+                <div class="movie">
+                    <h2>Se Beber, Não Case!</h2>
+                    <p>Após uma noite de bebedeira em Las Vegas, três amigos tentam reconstruir os eventos da noite e encontrar o amigo desaparecido.</p>
+                    <iframe src="https://www.youtube.com/embed/vhFVZsk3XEs" allowfullscreen></iframe>
+                </div>
+                <div class="movie">
+                    <h2>As Branquelas</h2>
+                    <p>Dois agentes do FBI se disfarçam como irmãs socialites para desmascarar um esquema de sequestro.</p>
+                    <iframe src="https://www.youtube.com/embed/aeVkbNka9HM" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
